@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #292929;
+    line-height: 2;
+  }
+  .txt {
+    color: #401d50;
+  }
+  /* Estilizando o cabeçalho */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #401d50;
+    padding: 20px;
+    color: white;
+    border: 5px solid #642880;
+  }
+  
+  /* Centralizando a logo */
+  .logo {
+    flex-grow: 1;
+    position: relative;
+    left: 46.5%;
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  /* Estilizando o botão no canto direito */
+  
+  .nav-button a:hover {
+    background-color: #777;
+  }
+  
+  /* Estilo para o conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  .text {
+    text-align: center;
+  }
+  
+  #fundamental {
+    background: url(https://uploaddeimagens.com.br/images/004/828/875/original/Design_sem_nome_%282%29.png?1724153346)
+      no-repeat center center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .section img {
+    width: 20%;
+    margin: 2%;
+    border-radius: 10px;
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  .overlay {
+    background: rgba(50, 21, 83, 0.5);
+    padding: 28px;
+    border-radius: 10px;
+    border: 5px solid #642880;
+  }
+  
+  .apresentacao {
+    border: 1px solid #401d50;
+    border-radius: 10px;
+  }
